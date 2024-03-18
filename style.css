@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Source Serif 4", Georgia, serif;
+    background-color: #f8f7f4;
+}
+.lien{
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+}
+.a{
+    display: flex;
+    gap: 30Px;
+    
+}
+.barre{
+   display: flex;
+   gap: 30px;
+   padding-left: 13rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(34, 33, 33);
+    font-size: 15px;
+    padding-top: 13PX;
+}
+select{
+    border: none;
+    color: rgb(34, 33, 33);
+    font-size: 15px;
+    background-color: #f8f7f4;
+    outline: none;
+}
+input{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+::placeholder, i{
+   padding: 17px;
+}
+i{
+    position: absolute;
+    color: rgb(109, 103, 103);
+}
+::placeholder{
+    padding: 40px;
+}
+.vide{
+    color: rgb(34, 33, 33);
+    border: none;
+    font-size: 15Px;
+    font-weight: bold;
+    
+    background-color: #f8f7f4;
+}
+.noir{
+    height: 35px;
+    width: 90px;
+    font-size: 13Px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(34, 33, 33);
+    border: none;
+    border-radius: 30px;
+    margin-top:-15PX ;
+}
+.noir:hover{
+    background-color: rgb(100, 98, 98);
+}
+.couleur{
+    text-align: center;
+    width: 350PX;
+    height: 30px;
+    border-radius: 50PX;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: 37%;
+    margin-top: 40px;
+
+    animation-name: couleur;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes couleur{
+    16%{ background-color: rgb(235, 161, 24);}
+    33%{ background-color: palevioletred;}
+    49%{ background-color: rgb(204, 36, 64);}
+    64%{ background-color: rgb(48, 207, 194);}
+    75%{ background-color: blue;}
+    85%{ background-color: rgb(102, 35, 102);}
+    100%{ background-color: rgb(186, 189, 33);}
+}
+
+.P{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 40px;
+    font-weight: 500;
+ }
+ .para{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+ }
+ .noir2{
+    text-align: center;
+    height: 55px;
+    width: 120px;
+    font-size: 13Px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(18, 19, 37);
+    border: none;
+    border-radius: 30px;
+    margin-left: 45%;
+    margin-top: 5%;
+ }
+ .noir2:hover{
+    background-color: rgb(100, 98, 98);
+ }
+ .les-image{
+    display: flex;
+    overflow: auto;
+ }
+.les-image, img{
+    gap: 20PX;
+    border-radius: 30px;
+ }
+ .paragraphe{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 50px;
+ }
+ .section-bas-image{
+    display: flex;
+
+ }
+ .detail-video{
+    display: flex;
+    
+ }
+ .Galerie{
+    padding: 20px;
+    float: left;
+    padding-left: 20PX;
+   margin: 20PX;
+    
+ }
+ .Galerie:hover{
+background-color: rgba(168, 161, 161, 0.829); 
+}
