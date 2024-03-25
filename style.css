@@ -125,11 +125,26 @@ i{
     margin-top: 5%;
  }
  .noir2:hover{
-    background-color: rgb(100, 98, 98);
+    background-color: rgb(170, 110, 110);
+ }
+ .carousel{
+    overflow-x: hidden;
+    overflow-y: hidden;
  }
  .les-image{
     display: flex;
-    overflow: auto;
+    animation-name: anime;
+    animation-timing-function: linear;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes anime{
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
  }
 .les-image, img{
     gap: 20PX;
@@ -147,15 +162,123 @@ i{
  }
  .detail-video{
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
  }
  .Galerie{
     padding: 20px;
     float: left;
     padding-left: 20PX;
-   margin: 20PX;
-    
+   margin: 20PX; 
  }
  .Galerie:hover{
-background-color: rgba(168, 161, 161, 0.829); 
+background-color: rgba(214, 128, 196, 0.829); 
+}
+.fa-regular {
+    font-size: 12px;
+}
+.fa-solid {
+    font-size: 12px;
+}
+.pro{
+    background-color: gray;
+    margin-left: 5PX;
+    color: white;
+    margin-top: 5PX;
+    padding-top: 2PX;
+}
+.meta-donnés{
+    padding-left: 10px;
+}
+.foot{
+   background-color: #ffda79;
+}
+.footer{
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-bottom: 5%;
+}
+.footer> h2{
+    font-size: 70PX;
+    font-weight: 100;
+}
+.fp{
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.nr{
+    width: 12%;
+    height: 50PX;
+    color: white;
+    background-color: rgb(16, 16, 34);
+    border-radius: 50PX;
+    border: NONE;
+}
+.bl{
+    width:  12%;
+    height: 50PX;
+    color: rgb(0, 0, 0);
+    background-color:white;
+    border-radius: 50PX;
+    border: NONE;
+}
+.ff{
+    font-size: 20px;
+}
+.ff> a{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.butto{
+    width: 30%;
+    height: 50px;
+    border-radius: 50px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+.butt{
+    text-align: center;
+    padding-bottom: 10%;
+}
+.image-foot{
+    display: flex;
+    gap: 20px;
+    animation-name: anime;
+    animation-timing-function: linear;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    padding-bottom: 10%;
+}
+.courou{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.a, .fa-brands{
+    font-size: 25PX;
+    color: black;
+    padding-top: 0PX;
+    padding-left: 5%;
+}
+.tous{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40PX;
+}
+.BASSE> a{
+    color: gray; 
+    padding: 10PX; 
+}
+.BASSE1> a{
+    color: gray; 
+    padding: 10PX
+}
+@media screen and (max-width:600PX){
+    .a{
+        display: none;
+    }
+    .couleur{
+       position: relative;
+       right: 35%;
+    }
 }
